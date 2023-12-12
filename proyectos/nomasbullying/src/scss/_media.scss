@@ -1,0 +1,195 @@
+@media (max-width: 1050px){
+
+    .nomasbullying-avatares {
+        display: none;
+    }
+
+    .nomasbullying-avatares-mobile {
+        display: block;
+    }
+
+    .nomasbullying-bubble-text a {
+        padding: 0.5rem;
+    }
+
+    .nomasbullying-counter div {
+        font-size: 3rem;
+        margin: 0 0.4rem;
+    }
+
+    .nomasbullying-container-sec5 .nomasbullying-p {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .nomasbullying-container-sec8 a {
+        font-size: 2.5rem;
+        max-width: 46rem;
+    }
+
+    .nomasbullying-row-logos img {
+        margin: 2rem;
+        max-width: 18rem;
+    }
+
+    .nomasbullying-row-logos .img2 {
+        max-width: 12rem;
+    }
+
+}
+
+@media (max-width: 602px){
+
+    .nomasbullying-title {
+        position: absolute;
+        top: 46.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 71%;
+    }
+
+    .nomasbullying-row,
+    .nomasbullying-boxes {
+        display: block;
+    }
+
+    .nomasbullying-btn-info {
+        padding: 1rem 2rem;
+    }
+
+    .nomasbullying-btn-pink {
+        max-width: 100%;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .nomasbullying-btn-info {
+    
+        $arrowicon: 0.2rem;
+    
+        &::after {
+            width: $arrowicon * 16;
+            height: $arrowicon * 16;
+            right: -5px;
+        }
+    }
+
+    .nomasbullying-p {
+        text-align: justify;
+    }
+
+    .nomasbullying-boxes-item {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nomasbullying-sec3-boxes {
+        display: block;
+    }
+
+    .nomasbullying-title-4 {
+        padding: 3rem;
+
+        img {
+            max-width: 35rem;
+        }
+    }
+    
+    .nomasbullying-sec8-2 {
+        display: none;
+    }
+
+    .nomasbullying-container-sec8 {
+        background-color: $fuchsia;
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+        padding: 5rem 0;
+
+        a {
+            font-size: 1.8rem;
+            max-width: 35rem;
+            padding: 1rem 0;
+            margin-top: 0;
+        }
+    }
+
+    .nomasbullying-row-logos {
+        display: block;
+        padding: 0 2rem;
+
+        img {
+            margin: 3rem auto 0;
+            max-width: 20rem;
+        }
+    }
+
+    .nomasbullying-bubble-1 {
+        top: 35%;
+        left: 31%;
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .nomasbullying-bubble-2 {
+        bottom: 59%;
+        right: 31%;
+        width: 100%;
+        max-width: 20rem;
+    }
+
+    .nomasbullying-bubble-1 img,
+    .nomasbullying-bubble-2 img {
+        max-width: 20.5rem;
+    }
+
+    .nomasbullying-bubble-text p {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .nomasbullying-bubble-text p span {
+        font-size: 2rem;
+    }
+
+    .nomasbullying-bubble-text button {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .nomasbullying-bubble-text {
+        top: 3px;
+        right: 29px;
+    }
+
+    .nomasbullying-bubble-2 .nomasbullying-bubble-text {
+        right: 8px;
+    }
+
+    .nomasbullying-a-purple-first {
+        font-size: 1.7rem;
+        max-width: 42rem;
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 547px){
+
+    .nomasbullying-container-sec6  {
+        display: block;
+
+        div {
+            width: 90%;
+            margin: 0 auto 3rem;
+        }
+    }
+
+    .nomasbullying-sumate-txt {
+        top: 65%;
+        max-width: 70%;
+    }
+
+}

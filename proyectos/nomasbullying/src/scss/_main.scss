@@ -1,0 +1,624 @@
+/* fuentes */
+$gotham: 'Gotham';
+$playfair: 'Playfair Display', serif;
+ 
+/* colores */
+$organge: #ff4b2a;
+$purple: #7e0bd8;
+$purple2: #781aa3;
+$purple3: #8c00e8;
+$fuchsia: #ff0082;
+$pink: #b328ff;
+$pink2: #e875f8;
+$pink3: #ed65ff;
+$pink4: #fea7f8;
+$pink5: #c38bc9;
+$white: #ffffff;
+$black: #000000;
+$yellow: #f0d035;
+$yellow2: #e0cf32;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $gotham;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nomasbullying-sec-header {
+    background-color: $pink4;
+}
+
+.nomasbullying-header {
+    margin: 0 auto 0 auto;
+    padding: 2rem 2rem 0;
+    position: relative;
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.nomasbullying-header-slider .slick-list.draggable {
+    border-radius: 2.5rem;
+}
+
+.nomasbullying-header-slider.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.slick-dots li button:before {
+    font-size: 1.6rem;
+    color: $white;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    color: $white;
+    opacity: 1;
+    font-size: 2.1rem;
+}
+
+.slick-dots li {
+    margin: 0 0.2rem;
+}
+
+.slick-dots {
+    bottom: -35px;
+}
+
+.nomasbullying-title {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 73.1%;
+    z-index: 2;
+}
+
+section.nomasbullying-sec2 {
+    background-color: $pink4;
+    padding: 10rem 0;
+}
+
+.nomasbullying-container {
+    width: 100%;
+    max-width: 116rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.nomasbullying-p {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+    line-height: 2.6rem;
+
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.nomasbullying-text-orange {
+    color: $organge;
+    font-weight: bold;
+}
+
+.nomasbullying-text-purple {
+    color: $purple;
+    font-weight: bold;
+}
+
+.nomasbullying-text-fuchsia {
+    color: $fuchsia;
+    font-weight: bold;
+}
+
+.nomasbullying-text-yellow {
+    color: $yellow;
+    font-weight: bold;
+}
+
+.nomasbullying-btn-info {
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-radius: 30rem;
+    background-color: red;
+    border: solid;
+    position: relative;
+    padding: 1.6rem 5rem;
+    transition: ease .3s;
+    text-decoration: none;
+
+    $arrowicon: 0.2rem;
+
+    &::after {
+        content: '';
+        background: url(../images/circle-right-arrow.png) no-repeat center center;
+        background-size: contain;
+        width: $arrowicon * 26;
+        height: $arrowicon * 26;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.nomasbullying-btn-pink {
+    font-size: 2rem;
+    border: solid 3px $black;
+    color: $white;
+    background-color: $pink;
+    display: block;
+    max-width: 70rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nomasbullying-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nomasbullying-col-2 {
+    flex: 1 0 50%;
+}
+
+.nomasbullying-logo-v {
+    display: block;
+    margin: 3.5rem auto 0;
+    max-width: 18rem;
+    width: 100%;
+}
+
+.nomasbullying-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+.nomasbullying-boxes-item {
+    position: relative;
+    border: solid 1px;
+    border-radius: 30px;
+    height: 100%;
+    width: 33rem;
+    margin-bottom: 6rem;
+
+    &::after {
+        content: "";
+        background: url(../images/x.png) no-repeat center center;
+        background-size: contain;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        top: -6px;
+        right: -6px;
+    }
+}
+
+.nomasbullying-boxes-item-icon img {
+    display: block;
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 10rem;
+}
+
+.nomasbullying-boxes-item-p {
+    background-color: $yellow;
+    border-radius: 0 0 3rem 3rem;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        color: $purple2;
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+#nomasbullying-sec3 {
+    position: relative;
+
+    .nomasbullying-p {
+        text-align: center;
+        padding: 3rem 0;
+        margin: 0;
+    }
+}
+
+.nomasbullying-yl-bg,
+.nomasbullying-pp-bg {
+    width: 100%;
+    display: block;
+}
+
+.nomasbullying-el {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70rem;
+    padding: 1rem 4rem 0;
+}
+
+.nomasbullying-sec3-container {
+    background-color: $yellow;
+    border-bottom: solid 2px;
+    padding: 0 2rem;
+}
+
+.nomasbullying-video-thumb {
+    display: block;
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto -14rem;
+}
+
+.nomasbullying-sec3-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+    padding: 0 2rem;
+}
+
+.nomasbullying-sec3-boxes-item  {
+    margin-bottom: 4rem;
+}
+
+.nomasbullying-sec3-boxes-item img {
+    display: block;
+    width: 100%;
+    max-width: 92%;
+    margin: 0 1.5rem;
+}
+
+.nomasbullying-title-4 {
+    background-color: $pink2;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 5rem 3rem;
+    margin-bottom: 6rem;
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+}
+
+.nomasbullying-avatares,
+.nomasbullying-avatares-mobile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+
+    img {
+        width: 100%;
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+.nomasbullying-avatares-avatar {
+    position: relative;
+    margin: 0 3rem;
+}
+
+.nomasbullying-avatares-mobile {
+    display: none;
+}
+
+
+.nomasbullying-avatares-mobile .nomasbullying-avatares-avatar {
+    display: table;
+    margin: 0 auto;
+}
+
+.nomasbullying-bubble-1 {
+    top: 24%;
+    left: -18%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    img {
+        max-width: 28rem;
+    }
+}
+
+.nomasbullying-bubble-2 {
+    bottom: 35%;
+    right: -15%;
+    position: absolute;
+    transform: translate(50%, 50%);
+
+    img {
+        max-width: 28rem;
+    }
+
+    .nomasbullying-bubble-text {
+        right: 40px;
+    }
+}
+
+.nomasbullying-bubble-text {
+    position: absolute;
+    top: 12px;
+    right: 65px;
+
+    p {
+        font-size: 1.8rem;
+        font-weight: bold;
+        display: table;
+        margin: 0 auto 1rem;
+        text-align: center;
+
+        span {
+            font-family: $playfair;
+            font-size: 2.6rem;
+            line-height: 1;
+        }
+        .span-pink {
+            color: $pink3;
+        }
+        .span-yellow {
+            color: $yellow;
+        }
+    }
+
+    button,
+    a {
+        display: table;
+        cursor: pointer;
+        padding: 0.8rem 1.5rem;
+        color: $white;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: ease .3s;
+        text-decoration: none;
+
+        &:hover {
+            opacity: .85;
+        }
+    }
+
+    .btn-pink {
+        border: solid 1px $pink5;
+        background-color: $pink4;
+    }
+
+    .btn-yellow {
+        border: solid 1px $yellow2;
+        background-color: $yellow;
+    }
+}
+
+.nomasbullying-bar {
+    background-color: $yellow;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    padding: 1rem 0;
+    text-align: center;
+    overflow-x: hidden;
+
+    div {
+        display: inline-block;
+        font-size: 2.2rem;
+        margin: 0 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.slick-prev {
+    left: 25px;
+    z-index: 10;
+    color: none;
+
+    &::before {
+        background: url(../images/left-arrow.png) no-repeat center center;
+        background-size: contain;
+        color: transparent;
+    }
+}
+
+.slick-next {
+    right: 25px;
+    z-index: 10;
+    color: none;
+
+    &::before {
+        background: url(../images/right-arrow.png) no-repeat center center;
+        background-size: contain;
+        color: transparent;
+    }
+}
+
+.nomasbullying-container-sec5 {
+    background-color: $purple;
+    padding: 4rem 2rem;
+
+    .nomasbullying-p {
+        font-size: 2rem;
+        color: $white;
+        font-weight: lighter;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nomasbullying-p-mini {
+        font-size: 1.5rem;
+        line-height: 1.3;
+        margin-top: 1rem;
+    }
+    
+}
+
+.nomasbullying-counter {
+    text-align: center;
+    padding: 5rem 0;
+
+    div {
+        font-size: 7rem;
+        display: inline-block;
+        font-weight: 500;
+        background-color: $white;
+        border-radius: 12px;
+        margin: 0 0.5rem;
+        padding: 1rem;
+        line-height: 1;
+    }
+    .transparent {
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+.nomasbullying-sec5 {
+    position: relative;
+}
+
+section.nomasbullying-sec6 {
+    padding: 3rem 1rem 5rem;
+}
+
+.nomasbullying-container-sec6 {
+    display: flex;
+    align-items: center;
+
+    div {
+        width: 33%;
+
+        img {
+            display: block;
+            width: 100%;
+            padding: 0 1.3rem;
+        }
+    }
+}
+
+.nomasbullying-bar-pink {
+    border-color: $black;
+    color: $white;
+    background-color: $fuchsia;
+}
+
+.nomasbullying-container-sec7 {
+    padding: 5rem 2rem;
+    position: relative;
+}
+
+.nomasbullying-sumate {
+    width: 100%;
+    display: block;
+}
+
+.nomasbullying-sumate-txt {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 65%;
+    padding: 0 2rem;
+}
+
+.nomasbullying-sec8-1,
+.nomasbullying-sec8-2 {
+    display: block;
+    width: 100%;
+}
+
+.nomasbullying-sec8 {
+    position: relative;
+}
+
+.nomasbullying-container-sec8 {
+    position: absolute;
+    width: 100%;
+    max-width: 70rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+
+    .nomasbullying-p {
+        margin: 2rem 0 0;
+        font-size: 2.5rem;
+        line-height: 2.6rem;
+        text-align: center;
+        color: $white;
+    }
+}
+
+.nomasbullying-a-purple {
+    background-color: $purple3;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    max-width: 68rem;
+    margin: 0 auto;
+    color: $white;
+    display: block;
+    padding: 1.5rem 2rem;
+    border-radius: 2.5rem;
+    border: solid 2px $black;
+    text-decoration: none;
+    transition: ease .4s;
+    font-weight: bold;
+    &:hover{
+        opacity: .85;
+    }
+}
+
+.nomasbullying-a-purple-first {
+    font-size: 2.1rem;
+    max-width: 42rem;
+    margin-top: 3rem;
+}
+
+.nomasbullying-row-logos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    img {
+        margin: 3rem;
+        width: 100%;
+        display: block;
+        max-width: 24rem;
+    }
+
+    .img2 {
+        width: 100%;
+        display: block;
+        max-width: 14rem;
+    }
+}
+
+.nomasbullying-banco-ripley {
+    display: block;
+    width: 100%;
+    max-width: 10rem !important;
+}
